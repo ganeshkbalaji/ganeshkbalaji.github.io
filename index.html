@@ -13,12 +13,21 @@
 <style>
 #certificate {
   font-size: 40px;
-  color: #00cc00;
+  color: #0EBFE9;
   position: absolute;
   margin-top: 6px;
 }
 .navbar-collapse {
   font-size: 15px;
+}
+.item {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text {
+  color: white;
 }
 </style>
 </head>
@@ -46,12 +55,36 @@
         </div>
     </div>
   </div>
-
+<!--
 <div class="jumbotron">
-  <div class="container">
+  <div id="header" class="container">
+    <div class="header-photo">
+      <img src="images/surf_background.jpeg" class="img-responsive">
     <p>professional bio</p>
     <h1>Ganesh Balaji</h1>
+    </div>
   </div>
+</div> -->
+
+<!--
+<div class="jumbotron">
+  <div class="container">
+    <div class = 'top-banner'>
+    <img src="images/surf.jpeg" class="img-responsive" alt="surf">
+    <header class="page-header top">
+
+    <h4>professional bio</h4>
+    <h1>Ganesh Balaji</h1>
+    </header>
+  </div>
+  </div>
+</div> -->
+
+<div class="item" style="background: url(images/surf.jpeg) no-repeat left center; background-size: cover;">
+    <div class="text">
+      <h4>professional bio</h4>
+      <h1>Ganesh Balaji</h1>
+    </div>
 </div>
 
 <br>
@@ -83,7 +116,7 @@
   <div class="navbar navbar-default navbar-fixed-bottom">
     <div class="container">
       <p class="navbar-text pull-left">Site Built by Ganesh Balaji</p>
-      <a href="ganeshkbalaji@rocketmail.com" class="navbar-btn btn btn-info pull-right">Contact me</a>
+      <a href="mailto:ganeshkbalaji@rocketmail.com" class="navbar-btn btn btn-info pull-right">Contact me</a>
     </div>
   </div>
 
