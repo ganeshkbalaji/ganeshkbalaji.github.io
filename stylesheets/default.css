@@ -1,3 +1,78 @@
 .dropdown-backdrop {
-    position: static;
+  position: static;
+}
+#certificate {
+  font-size: 40px;
+  color: #0EBFE9;
+  position: absolute;
+  margin-top: 6px;
+}
+.navbar-collapse {
+  font-size: 15px;
+}
+.container {
+  position: relative;
+  width: 960px;
+  margin: 0 auto;
+  padding: 0;
+}
+body .container {
+  color: #fff;
+}
+.container .subtitle{
+  text-align: center;
+  font-size: 162%;
+  font-style: italic;
+  font-family: 'Arapey',georgia,serif;
+  font-weight: 300;
+  line-height: 1.2;
+}
+.container .subtitle span.line {
+  height: 2px;
+  width: 100px;
+  position: relative;
+  top: -5px;
+  display: inline-block;
+  zoom: 1;
+  float: none;
+}
+.ib {
+  display: inline-block;
+  zoom: 1;
+  float: none;
+}
+.container .subtitle span.line {
+  height: 2px;
+  width: 100px;
+  position: relative;
+  top: -5px;
+  display: inline-block;
+  zoom: 1;
+  float: none;
+}
+.item {
+  background-size: cover;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text {
+  color: white;
+}
+span.line{
+  height: 2px;
+  width: 100px;
+  position: relative;
+  top: -5px;
+  display: inline-block;
+  zoom: 1;
+  float: none;
+}
+.line {
+  background: #fff;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.3);
+}
+h1 {
+  font-size: 36px;
 }
