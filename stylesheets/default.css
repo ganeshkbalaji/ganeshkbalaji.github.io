@@ -1,14 +1,14 @@
-.dropdown-backdrop {
-  position: static;
+nav.navbar {
+  margin-bottom: 0px;
+}
+.jumbotron {
+  margin-bottom: 0px;
 }
 #certificate {
   font-size: 40px;
   color: #0EBFE9;
   position: absolute;
   margin-top: 6px;
-}
-.navbar-collapse {
-  font-size: 15px;
 }
 .container {
   position: relative;
@@ -41,15 +41,6 @@ body .container {
   zoom: 1;
   float: none;
 }
-.container .subtitle span.line {
-  height: 2px;
-  width: 100px;
-  position: relative;
-  top: -5px;
-  display: inline-block;
-  zoom: 1;
-  float: none;
-}
 .item {
   background-size: cover;
   height: 500px;
@@ -75,4 +66,9 @@ span.line{
 }
 h1 {
   font-size: 36px;
+}
+.title .content {
+  text-align: center;
+  text-transform: uppercase;
+
 }
