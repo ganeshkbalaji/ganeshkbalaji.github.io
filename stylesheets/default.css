@@ -1,14 +1,15 @@
 nav.navbar {
   margin-bottom: 0px;
 }
-.jumbotron {
-  margin-bottom: 0px;
-}
 #certificate {
   font-size: 40px;
   color: #0EBFE9;
   position: absolute;
   margin-top: 6px;
+}
+
+.collapse {
+  align: right;
 }
 .container {
   position: relative;
@@ -60,6 +61,16 @@ span.line{
   zoom: 1;
   float: none;
 }
+
+@media all and (max-width: 480px) {
+    span.line {
+      width: 51px !important;
+    }
+    span.line-abs {
+      width: 51px !important;
+    }
+  }
+
 .line {
   background: #fff;
   box-shadow: 0 1px 1px rgba(0,0,0,0.3);
@@ -70,5 +81,67 @@ h1 {
 .title .content {
   text-align: center;
   text-transform: uppercase;
+}
 
+.text-component .content {
+  font-family: 'josefin slab', georgia, serif;
+}
+span.line-abs {
+  height: 2px;
+  width: 100px;
+  position: relative;
+  top: -5px;
+  display: inline-block;
+  zoom: 1;
+  float: none;
+}
+
+h2 {
+  text-align: center;
+}
+.line-abs {
+  background: black;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.3);
+}
+.center .image-link img {
+  height: 25%;
+  width: 30%;
+  border-radius:50% 50% 50% 50%;
+}
+h2.subtitle .content{
+  font-family: 'josefin slab', georgia, serif;
+  color: grey;
+}
+.text3{
+  line-height: 30px;
+  font-size: 20px;
+  color: #5e9516;
+  font-weight: bold;
+  text-shadow: 0 1px 0 #fff;
+  margin-bottom: 10px;
+}
+.text .content a{
+  text-decoration: none;
+  font-size: 20px;
+}
+
+section#bio{
+  margin-bottom: 60px;
+  margin-top: 60px;
+}
+
+h3.title2 {
+  text-align: center;
+  color:#939393;
+  font-style: italic;
+}
+
+.row-fluid {
+  margin-top: 40px;
+}
+span.image-link img{
+  width: 30%;
+  height: 250px;
+  margin-left: 20px;
+  border-radius: 20% 20% 20% 20%
 }

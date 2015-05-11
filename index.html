@@ -14,71 +14,38 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <!-- Latest compiled JavaScript -->
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  <!-- jQuery parallax-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-parallax/1.1.3/jquery-parallax-min.js"></script>
 </head>
 
 
 <body>
-<nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="glyphicon glyphicon-certificate" id="certificate" href="#"></a>
-   </div>
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse pull-right" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li><a href="#">My Work</a></li>
-        <li><a href="#">Contact</a></li>
-        <li><a href="#">Writing</a></li>
-        <li><a href="#">Background</a></li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
-<div class="jumbotron" style="background: url(images/mountains.jpeg) no-repeat left center; background-size: cover; height:500px;">
-  <div class="container">
-  <h3 class="subtitle">
-        <span class="line"></span>
-        <div class="ib">
-          <div class="text-component">
-            <div class="content content2">
-              <div>professional bio</div>
-            </div>
-          </div>
-        </div>
-        <span class="line"></span>
-      </h3>
-      <h1 class="title">
-        <div class="text-component">
-          <div class="content content2">
-            <div> Ganesh Balaji</div>
-          </div>
-        </div>
-      </h1>
-    </div>
-  </div>
-
-  <div class="container">
-  <h2 class="title center">
-    <div class="ib relative">
-      <span class="line-abs"></span>
-      <div class="data-component">
-        <div>Ganesh Balaji</div>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="glyphicon glyphicon-certificate" id="certificate" href="#"></a>
       </div>
-    </div>
-    <span class="line-abs right"></span>
-  </h2>
-  </div>
-</div>
-<!-- <div class="item" style="background: url(images/surf_background.jpeg) no-repeat left center; background-size: cover; height:500px;">
-    <div class="container">
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a class="scroll" href="#work">My Work</a></li>
+          <li><a class="scroll" href="#contact">Contact</a></li>
+          <li><a class="scroll" href="#writing">writing</a></li>
+          <li><a class="scroll" href="#background">background</a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
 
+  <div class="jumbotron" style="background: url(images/mountains.jpeg) no-repeat left center; background-size: cover; height:700px;">
+    <div class="container">
       <h3 class="subtitle">
         <span class="line"></span>
         <div class="ib">
@@ -90,45 +57,134 @@
         </div>
         <span class="line"></span>
       </h3>
-
       <h1 class="title">
         <div class="text-component">
           <div class="content content2">
-            <div> Ganesh Balaji</div>
+            <div>Ganesh Balaji</div>
           </div>
         </div>
       </h1>
     </div>
   </div>
 
-  <div class="container">
-  <h2 class="title center">
-    <div class="ib relative">
-      <span class="line-abs"></span>
-      <div class="data-component">
-        <div>Ganesh Balaji</div>
+
+  <section id="bio">
+    <div class="container-fluid">
+      <div class="row big">
+        <h2 class="title center">
+          <span class="line-abs"></span>
+          <div class="ib">
+            <div class="text-component">
+              <div class="content">
+                <div>Ganesh Balaji</div>
+              </div>
+            </div>
+          </div>
+          <span class="line-abs right"></span>
+        </h2>
       </div>
     </div>
-    <span class="line-abs right"></span>
-  </h2>
-  </div> -->
+    <div class="center" align="center">
+      <div class="image cover">
+        <span class="image-link">
+          <img src="http://i.imgur.com/g1YZjfv.jpg" title="source: imgur.com" />
+        </span>
+      </div>
+    </div>
+    <h2 class="subtitle">
+      <div class="content" align="center">
+        <div>Full Stack Web Developer</div>
+      </div>
+    </h2>
+    <div class="text3 text-component">
+      <div class="content" align="center">
+        <div>San Francisco</div>
+      </div>
+    </div>
+    <div class="text text-component">
+      <div class="content content2" align="center">
+        <a href="https://twitter.com/ganeshkbalaji">@ganeshkbalaji</a>
+      </div>
+    </div>
+  </section>
 
 
-  <div class="row">
-    <div class="span6" style="float: none; margin: 0 auto;">
+  <section id="work">
+    <div class="container-fluid">
+      <div class="row big">
+        <h2 class="title center">
+          <span class="line-abs"></span>
+          <div class="ib">
+            <div class="text-component">
+              <div class="content">
+                <div>My Work</div>
+              </div>
+            </div>
+          </div>
+          <span class="line-abs right"></span>
+        </h2>
+      </div>
+      <h3 class="title2 center">
+        <div class="text-component">
+          <div class="content content2">
+            <div>I'm a developer working to build beautiful and meaningful things.</div>
+          </div>
+        </div>
+      </h3>
+      <div class="row-fluid">
+        <div class="work-content">
+          <div class=".col-xs-12 .col-sm-6 .col-lg-8">
+            <span class="image-link">
+              <a href="sealions-vr.github.io"><img src="http://i.imgur.com/zNytmLm.png" alt="VR" /></a>
+            </span>
+          </div>
+          <div class=".col-xs-12 .col-sm-6 .col-lg-8 .col-md-0">
+            <div class="div">
+              <h2 class="subtitle text-component">
+                <div class="content content2">
+                  <div>Intergalactic VR</div>
+                </div>
+              </h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
+
+  <!-- Portfolio Grid Section -->
+  <section id="writing"></section>
+  <section id="background"></section>
+  <section id="other">
+
+     <div class="text-component">
+      <div class="content content2">
+        <h2 class="section-about">Ganesh Balaji</h2>
+      </div>
+    </div>
+        <div class="container-fluid">
+       <div class="col-xs-12 col-sm-6 col-lg-8">.col-xs-12 .col-sm-6 .col-lg-8</div>
+  <div class="col-xs-6 col-lg-4">.col-xs-6 .col-lg-4</div>
+</div>
+    <span class="line"></span>
+    <div class="panel panel-primary">
+      <div class="panel-heading">jhdsahfjhdfhs</div>
+      <div class="panel-body" style="max-height: 10;overflow-y: scroll;">fdoinfds sdofjohisdfj</div>
     </div>
   </div>
+</section>
 
-  <div class="navbar navbar-default navbar-fixed-bottom">
-    <div class="container">
-      <p class="navbar-text pull-left">Site Built by Ganesh Balaji</p>
-      <a href="mailto:ganeshkbalaji@rocketmail.com" class="navbar-btn btn btn-info pull-right">Contact me</a>
-    </div>
+
+
+<div class="navbar navbar-default navbar-fixed-bottom">
+  <div class="container">
+    <p class="navbar-text pull-left">Site Built by Ganesh Balaji</p>
+    <a href="mailto:ganeshkbalaji@rocketmail.com" class="navbar-btn btn btn-info pull-right">Contact me</a>
   </div>
-
-  <footer>
-  </footer>
+</div>
+<footer>
+</footer>
 </body>
 
 </html>
