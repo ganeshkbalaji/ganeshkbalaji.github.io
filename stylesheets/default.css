@@ -1,6 +1,10 @@
 nav.navbar {
   margin-bottom: 0px;
 }
+
+a.scroll{
+  text-transform: uppercase;
+}
 #certificate {
   font-size: 40px;
   color: #0EBFE9;
@@ -173,4 +177,13 @@ span.image-link img{
   color: #555;
   line-height: 1.45;
   text-shadow: 0 1px 0 rgba(255,255,255,0.75);
+}
+
+section#story .container-fluid{
+  margin-top: 60px;
+  background: #eee;
+}
+.story {
+  padding: 30px;
+  font-family: georgia, serif;
 }
